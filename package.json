@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"esm": "^3.2.25",
+		"gulp": "^4.0.2",
+		"gulp-imagemin": "^8.0.0",
+		"gulp-svgmin": "^4.1.0"
+	}
+}
