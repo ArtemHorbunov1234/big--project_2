@@ -757,3 +757,223 @@ button {
     width: 48%;
     z-index: 0;
 }
+
+.section_8 {
+    margin: 6.25rem 0 6.25rem 0;
+}
+
+.section_8__container--content_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.section_8__title--header_1 {
+    text-transform: uppercase;
+    color: rgba(1, 163, 164, 1);
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+    margin-left: 12rem;
+    position: relative;
+    z-index: 1;
+}
+
+.section_8__title--header_2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.section_8__container--Im_18 {
+    position: relative;
+    z-index: 1;
+}
+
+.section_8__container {
+    display: flex;
+    gap: 6.28rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 125px;
+}
+
+.section_8__container--content_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+}
+
+.container--flex_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.section_8__container--line {
+    width: fit-content;
+}
+
+.section_8__container__title {
+    width: 35.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_8__container--header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.section_8__container--text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(105, 105, 105, 1);
+    line-height: 1.8rem;
+}
+
+.section_8__container--text--span {
+    opacity: 10%;
+}
+
+.section_8__container__main {
+    display: flex;
+    gap: 3.3rem;
+}
+
+.container--flex_1 {
+    width: 34.75rem;
+}
+
+.section_8--quotes {
+    position: absolute;
+    z-index: 0;
+}
+
+.section_8--line {
+    position: absolute;
+    right: 0%;
+    z-index: 0;
+}
+
+.section_8--Ellipse_25 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-165px, 10px);
+    right: 0%;
+}
+
+.section_8__container__main--Arrow_left {
+    cursor: pointer;
+}
+
+.section_8__container__main--Arrow_right {
+    cursor: pointer;
+}
+
+.section_8__container--Ellipse_14 {
+    position: absolute;
+    z-index: 0;
+    transform: translate(0px, 132px);
+    left: 5%;
+}
+
+.section_8__container--Ellipse_15 {
+    position: absolute;
+    left: 11%;
+    transform: translate(0px, 83px);
+}
+
+.footer {
+    padding: 4.3rem 0 4.3rem 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(240, 248, 246, 1);
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+
+.container_menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 45px;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 1.9rem;
+}
+.footer__menu a {
+    text-decoration-line: none;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.footer__contact--us {
+    display: flex;
+    gap: 1.9rem;
+}
+
+.footer__contact--us a {
+    text-decoration-line: none;
+    color: rgba(33, 33, 33, 1);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.footer__networks {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer__networks img {
+    cursor: pointer;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    gap: 20rem;
+}
+
+.footer__development {
+    display: flex;
+    gap: 0.63rem;
+    align-items: center;
+}
+
+.footer__container--text {
+    color: rgba(105, 105, 105, 1);
+    font-size: 0.75rem;
+    opacity: 90%;
+    font-weight: 400;
+}
+
+.footer__development--text {
+    color: rgba(105, 105, 105, 1);
+    font-size: 0.75rem;
+    opacity: 90%;
+    font-weight: 400;
+}
