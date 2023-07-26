@@ -1039,6 +1039,7 @@ button {
     border-radius: 20px;
     width: 806px;
     height: 461px;
+    transform: translate(16%, -4%);
 }
 
 .section_7__item_1 {
@@ -1102,7 +1103,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Задаем полупрозрачный черный цвет */
-    display: none; /* Начальное состояние - скрыто */
-    z-index: 3; /* Убедимся, что слой находится поверх других элементов */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 3;
 }
