@@ -385,6 +385,10 @@ button {
     transform: translate(-28px, -27px);
 }
 
+.section_3__mobile--Ellipse_17 {
+    display: none;
+}
+
 .section_3__img--shopper {
     position: absolute;
     z-index: 2;
@@ -631,6 +635,15 @@ button {
     margin: 30px 40px 40px 40px;
 }
 
+.section_6__mobile--Button {
+    display: none;
+    cursor: pointer;
+}
+
+.section_6__mobile--Group_875 {
+    display: none;
+}
+
 .section_6--card__1 div h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
@@ -817,6 +830,20 @@ button {
     z-index: 1;
 }
 
+.section_8__container__mobile {
+    display: none;
+}
+
+.section_8__container__mobile--Mask-Group {
+    display: none;
+    position: inherit;
+    z-index: 1;
+}
+
+.section_8__mobile--quotes_2 {
+    display: none;
+}
+
 .section_8__container {
     display: flex;
     gap: 6.28rem;
@@ -929,6 +956,10 @@ button {
     justify-content: space-evenly;
     align-items: center;
     padding-right: 45px;
+}
+
+.footer--logo {
+    display: none;
 }
 
 .footer__menu {
@@ -1141,9 +1172,6 @@ button {
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
     z-index: 3;
-}
-
-.section_3__img--Im_9 {
 }
 
 @media (max-width: 1680px) {
@@ -2222,6 +2250,18 @@ button {
         display: none;
     }
 
+    .section_2__text {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 38px;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    .section_2__card--header {
+        font-weight: 700;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
     .section_2__mobile {
         display: inherit;
         margin-bottom: 2rem;
@@ -2247,5 +2287,362 @@ button {
 
     .section_2--margin {
         margin-bottom: -1rem;
+    }
+
+    .section_3__img--stand {
+        display: none;
+    }
+
+    .section_3__img--shopper {
+        display: none;
+    }
+
+    .section_3__img--line--max {
+        display: none;
+    }
+
+    .section_3__img--jar {
+        display: none;
+    }
+
+    .section_3__img--line--mix {
+        display: none;
+    }
+
+    .section_3__img--Ellipse_18 {
+        display: none;
+    }
+
+    .section_3__mobile--Ellipse_17 {
+        display: inherit;
+        position: absolute;
+        right: 24.5%;
+        transform: translate(0px, -106px);
+        width: 7%;
+    }
+
+    .section_3__img--Ellipse_19 {
+        transform: translate(-52px, 384px);
+        width: 9%;
+    }
+
+    .section_3--description__btn {
+        transform: translate(-6px, 761px);
+        width: 478px;
+    }
+
+    .section_3--title--header {
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    .section_4__title--line {
+        display: none;
+    }
+
+    .section_4__title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_4__margin {
+        margin-left: 0;
+        margin-bottom: 3.6rem;
+    }
+
+    .section_4__img--traces {
+        transform: translate(161px, 172px);
+    }
+
+    .section_4__title--header {
+        font-size: 2rem;
+        width: 464px;
+        line-height: 2rem;
+    }
+
+    .section_4__title--text {
+        padding-left: 0rem;
+        margin-top: 1.6rem;
+        font-size: 2rem;
+    }
+
+    .section_4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_5__container__img--3 {
+        display: none;
+    }
+
+    .section_5__container__img--4 {
+        display: none;
+    }
+
+    .section_5__container__img--7 {
+        display: none;
+    }
+
+    .section_5__container {
+        grid-template-areas:
+            'img--1 img--2'
+            'img--5 img--6 ';
+        gap: 0.6rem;
+    }
+
+    .section_5__container__img--2 {
+        width: 150px;
+    }
+
+    .section_5__container__img--1 {
+        width: 150px;
+    }
+
+    .section_5__container__img--5 {
+        width: 150px;
+    }
+
+    .section_5__container__img--6 {
+        width: 150px;
+    }
+
+    .section_5__title--header {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.8rem;
+    }
+
+    .section_5__container__img--Ellipse_21 {
+        display: none;
+    }
+
+    .section_5__container__img--Ellipse_22 {
+        display: none;
+    }
+
+    .section_6__header {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.8rem;
+    }
+
+    .section_6--card__line_bg {
+        display: none;
+    }
+
+    .section_6--card--header {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .section_6--card__2 {
+        display: none;
+    }
+
+    .section_6--card__3 {
+        display: none;
+    }
+
+    .section_6__mobile--Button {
+        display: inherit;
+        margin-left: 13rem;
+    }
+
+    .section_6--card__btn {
+        display: none;
+    }
+
+    .section_6__mobile--Group_875 {
+        display: inherit;
+    }
+
+    .section_7 {
+        padding: 4.25rem 0px 6.4rem 0px;
+    }
+
+    .section_7__container__img--Vector_10 {
+        position: absolute;
+        right: 46%;
+        transform: translate(0px, -54px);
+    }
+
+    .section_7__container {
+        align-items: center;
+    }
+
+    .section_7__container--header_2 {
+        width: 26rem;
+    }
+
+    .section_7__container--title {
+        margin-left: 0rem;
+        font-size: 1rem;
+        letter-spacing: 0rem;
+    }
+
+    .section_7__dropdown {
+        display: flex;
+        flex-direction: column;
+        width: 347px;
+        gap: 0rem;
+        transform: translate(-51%, 12%);
+    }
+
+    .section_7__item_1 {
+        padding: 0px 84px 0px 84px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        border-bottom-left-radius: 0px;
+        height: 201px;
+    }
+
+    .section_7__item_2 {
+        background: white;
+        width: 347px;
+        padding-top: 1.5rem;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .section_7__dropdown__btn {
+        margin-top: 1.5rem;
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .section_7__dropdown--header {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .section_7__dropdown--text {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .section_8 {
+        margin: 5.25rem 0 6.25rem 0;
+    }
+
+    .section_8--Ellipse_25 {
+        display: none;
+    }
+
+    .section_8--line {
+        display: none;
+    }
+
+    .section_8__container--Im_18 {
+        display: none;
+    }
+
+    .section_8__container__mobile {
+        display: inherit;
+    }
+
+    .section_8__container__mobile--Mask-Group {
+        display: inherit;
+    }
+
+    .section_8__container__title {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+    }
+
+    .section_8__container--rating {
+        width: fit-content;
+    }
+
+    .section_8__container--header {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .section_8__container--content_1 {
+        align-items: center;
+    }
+
+    .section_8__title--header_2 {
+        margin-left: 0;
+    }
+
+    .section_8__title--header_1 {
+        margin-left: 0;
+        letter-spacing: 0rem;
+        font-size: 0.75rem;
+    }
+
+    .section_8__container__main {
+        margin-top: 0rem;
+    }
+
+    .section_8__title--header_2 {
+        margin-bottom: 0rem;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section_8__container--line {
+        margin-inline: auto;
+    }
+
+    .section_8__container--content_2 {
+        gap: 0.9rem;
+        align-items: center;
+    }
+
+    .section_8__container__header {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .section_8__container__title {
+        width: 121px;
+    }
+
+    .section_8__mobile--quotes_2 {
+        display: inherit;
+        position: absolute;
+        left: 31%;
+        transform: translate(0px, 67px);
+        z-index: 0;
+    }
+
+    .section_8--quotes {
+        display: none;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .footer--logo_2 {
+        display: none;
+    }
+
+    .footer--logo {
+        display: inherit;
+    }
+
+    .footer__contact--us {
+        flex-direction: column;
+        gap: 1.25rem;
+        margin-left: 1rem;
+    }
+
+    .footer__contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.9rem;
+    }
+
+    .footer--logo__mobile--logo {
+        width: 134px;
+        height: 70px;
     }
 }
