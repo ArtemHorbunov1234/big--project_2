@@ -2651,7 +2651,7 @@ button {
     }
 }
 
-@media (max-width: 666px) {
+@media only screen and (max-width: 600px) {
     .section_1__text {
         gap: 0.7rem;
     }
@@ -2906,7 +2906,7 @@ button {
     }
 }
 
-@media (max-width: 414px) {
+@media only screen and (max-width: 414px) {
     .section--btn {
         margin-top: 17rem;
     }
@@ -2937,24 +2937,5 @@ button {
     .section_1__mobile--im_line_2 {
         width: 83%;
         right: -94%;
-    }
-}
-
-@media (max-width: 375px) {
-    .section_1__img--Image_1 {
-        top: 50%;
-    }
-
-    .section_1__img--Ellipse_18 {
-        top: 379px;
-        right: 104px;
-    }
-
-    .section_1__mobile--im_line_4 {
-        top: 47%;
-    }
-
-    .section_1__mobile--im_line_3 {
-        top: 47%;
     }
 }
