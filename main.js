@@ -16,12 +16,12 @@ toggleHidden.addEventListener('click', function () {
 });
 
 menuShow.addEventListener('click', function () {
-    if (menuShow.src.match('/dist/img/header--hamburger-menu.svg')) {
+    if (menuShow.src.match('dist/img/header--hamburger-menu.svg')) {
         menuShow.src = '/dist/img/dropdown__hamburger-menu--cancel.svg';
         menuPanel.style.display = 'inherit';
     } else {
         menuPanel.style.display = 'none';
 
-        menuShow.src = '/dist/img/header--hamburger-menu.svg';
+        menuShow.src = 'dist/img/header--hamburger-menu.svg';
     }
 });
