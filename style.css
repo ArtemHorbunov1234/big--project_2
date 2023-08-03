@@ -2651,7 +2651,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 666px) {
     .section_1__text {
         gap: 0.7rem;
     }
@@ -2906,7 +2906,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
     .section--btn {
         margin-top: 17rem;
     }
