@@ -2940,9 +2940,9 @@ button {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
     .section_1__img--Image_1 {
-        top: 37%;
+        top: 50%;
     }
 
     .section_1__img--Ellipse_18 {
@@ -2951,10 +2951,10 @@ button {
     }
 
     .section_1__mobile--im_line_4 {
-        top: 34%;
+        top: 47%;
     }
 
     .section_1__mobile--im_line_3 {
-        top: 34%;
+        top: 47%;
     }
 }
